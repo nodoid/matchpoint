@@ -11,6 +11,13 @@ character rows underneath carry the messages. The scoreboard across the top is
 advantage as tennis does, with games to six (two clear) and the match to the
 first player to take two sets. Points are announced by chord on the AY-3-8912.
 
+## What it looks like
+
+| | |
+|-|-|
+| ![Title and options](screenshots/01_title.png) | ![Serve wait](screenshots/02_serve.png) |
+| ![Rally](screenshots/03_rally.png) | |
+
 The title screen also sets up the match: the arrows choose a surface (which sets
 the stroke pace and how much speed a bounce keeps) and an opponent grade (which
 sets the computer's shuffle speed and reach).

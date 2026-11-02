@@ -1,0 +1,33 @@
+# Build output, except the ready-made tape that ships with the repo
+build/*
+!build/matchpoint.tap
+dist/
+*.dsk
+*.bin
+
+# Object files, listings and linker output
+*.o
+*.obj
+*.a
+*.lib
+*.lst
+*.map
+*.lbl
+*.dbg
+*.sdb
+*.sym
+
+# cc65 / ca65 temporaries
+*.i
+*.s~
+
+# Local reference material: the original's documentation and an emulator
+# checkout.  Not part of the project's own source.
+refs/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
